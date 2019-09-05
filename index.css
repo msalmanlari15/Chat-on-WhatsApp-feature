@@ -1,0 +1,69 @@
+* {
+	margin: 0px;
+	padding: 0px;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+body {
+    background-image: url("/img/wabackground.png");
+    font-family: 'Poppins', sans-serif;
+    /* background-position: center center; */
+    background-repeat: repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover;   */
+    /* align-content: center;
+    align-items: center; */
+}
+
+.salmanpic {
+    left:50%;
+    /* background-color: gray; */
+    text-align: center;
+}
+
+h1 {
+    /* background-color: aqua; */
+    text-align: center;
+}
+
+.salpro {
+    width: 25%;
+    border-radius: 50%;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    left: 50%;
+}
+
+.whatsapp-sec {
+    /* background-color: gray; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.whatsapp {
+    width: 5%;
+    margin-right: 10px;
+}
+
+h3 a {
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
